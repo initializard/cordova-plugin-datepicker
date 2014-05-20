@@ -104,7 +104,7 @@
 
 - (UIActionSheet *)createActionSheet:(NSMutableDictionary *)options {
   UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
-                                                        delegate:self cancelButtonTitle:nil
+                                                        delegate:self cancelButtonTitle:@""
                                                         destructiveButtonTitle:nil 
                                                         otherButtonTitles:nil];
 

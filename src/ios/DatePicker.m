@@ -98,7 +98,7 @@
 }
 
 - (void)hide {
-    if (isIPhone) {
+    if (YES || isIPhone) {
         CGRect frame = CGRectOffset(self.datePickerComponentsContainer.frame,
                                     0,
                                     self.datePickerComponentsContainer.frame.size.height);

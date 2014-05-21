@@ -36,7 +36,7 @@
 
 - (void)show:(CDVInvokedUrlCommand*)command {
     NSMutableDictionary *options = [command argumentAtIndex:0];
-    if (isIPhone) {
+    if (YES || isIPhone) {
         [self showForPhone: options];
     } else {
         [self showForPad: options];
